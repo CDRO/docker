@@ -1,4 +1,5 @@
 FROM alpine
+MAINTAINER Tizian Schmidlin <tizian.schmidlin+docker-github@gmail.com>
 RUN touch ~/.profile
 RUN apk add --no-cache curl bash nodejs
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash
