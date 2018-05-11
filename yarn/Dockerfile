@@ -9,4 +9,3 @@ RUN yarn -v
 COPY entry-point.sh /bin
 RUN chmod +x /bin/entry-point.sh
 ENTRYPOINT ["/bin/entry-point.sh"]
-CMD ["/bin/bash"]
